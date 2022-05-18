@@ -2,24 +2,87 @@
 
 body {
   background-color:#fec107;
+  font-family:'Montserrat', sans-serif;
 }
+
+.form {
+
+
+}
+
+.title {
+  color: #fec107;
+  font-weight: 600;
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 2.5rem;
+}
+
+
 
 label {
 float: left;
-width: 50%;
+width: 30%;
 
 }
+
+input {
+  padding: 8px 10px;
+  border-radius: 3px;
+  outline: none;
+  width: 50%;
+
+
+
+}
+
+.gender {
+  width: 50%;
+  padding: 8px 10px;
+  border-radius: 3px;
+}
+
+select {
+appearance: none;
+}
+
+textarea {
+  resize: none;
+  width: 50%;
+}
+
+.checkb {
+
+
+}
+
+#checkBox {
+float: left;
+margin-right: 3%;
+width: auto;
+
+  }
+
 
 .wrapper {
   background-color: #fff;
   max-width: 50%;
   width: 100%;
   margin: 20px auto;
-padding: 20px;
+padding: 0 0 30px 30px;
+color: #757575;
 }
 
 
 .inputField{
   margin-bottom: 20px;
 
+}
+
+.btn {
+  background-color: #fec107;
+  width: 100%;
+  padding: 8px 10px;
+  border-radius: 3px;
+  color: #fff;
 }
