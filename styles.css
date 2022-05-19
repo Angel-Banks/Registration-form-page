@@ -23,21 +23,23 @@ body {
 label {
 float: left;
 width: 30%;
+margin: 0 25px;
 
 }
 
 input {
   padding: 8px 10px;
-  border-radius: 3px;
+
   outline: none;
   width: 50%;
+
 
 
 
 }
 
 .gender {
-  width: 50%;
+  width: 54%;
   padding: 8px 10px;
   border-radius: 3px;
 }
@@ -48,7 +50,7 @@ appearance: none;
 
 textarea {
   resize: none;
-  width: 50%;
+  width: 52%;
 }
 
 .checkb {
@@ -69,7 +71,7 @@ width: auto;
   max-width: 50%;
   width: 100%;
   margin: 20px auto;
-padding: 0 0 30px 30px;
+padding: 30px 30px 30px 30px;
 color: #757575;
 }
 
@@ -85,4 +87,10 @@ color: #757575;
   padding: 8px 10px;
   border-radius: 3px;
   color: #fff;
+  cursor: pointer;
+
+}
+
+.btn:hover {
+  background-color:pink;
 }
