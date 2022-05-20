@@ -14,14 +14,16 @@ body {
   color: #fec107;
   font-weight: 600;
   text-align: center;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
   font-size: 2.5rem;
+  text-transform: uppercase;
+
 }
 
 
 
 label {
-float: left;
+/* float: left; */
 width: 30%;
 margin: 0 25px;
 
@@ -29,20 +31,17 @@ margin: 0 25px;
 
 input {
   padding: 8px 10px;
-
+  border: 1px solid #757575;
   outline: none;
   width: 50%;
-
-
-
-
 
 }
 
 .gender {
-  width: 54%;
+  width: 53%;
   padding: 8px 10px;
-  border-radius: 3px;
+  /* border-radius: 3px; */
+    border: 1px solid #757575;
 }
 
 select {
@@ -52,6 +51,7 @@ appearance: none;
 textarea {
   resize: none;
   width: 52%;
+  border: 1px solid #757575;
 }
 
 .checkb {
@@ -63,6 +63,8 @@ textarea {
 float: left;
 margin-right: 3%;
 width: auto;
+
+
 
   }
 
@@ -79,7 +81,7 @@ color: #757575;
 
 .inputField{
   margin-bottom: 30px;
-
+ display: flex;
 }
 
 .btn {
